@@ -23,14 +23,6 @@ rebuilt in Next.js 14 (App Router) + Tailwind CSS, matching the
 | Forest Dark | `#2F4D28` | Hover states           |
 | Line        | `#E5E3D8` | Hairline borders       |
 
-## Local Development
-
-```bash
-npm install
-npm run dev
-```
-
-Open <http://localhost:3000>.
 
 ## Project Structure
 
@@ -49,16 +41,6 @@ components/
 
 - **Mobile (< 1024px):** single-column stacked
 - **Desktop (≥ 1024px):** asymmetric 12-col grid (4 sidebar / 8 article)
-
-## Deploy to Vercel
-
-```bash
-git init && git add . && git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/punsatva-blog.git
-git push -u origin main
-```
-
-Then go to [vercel.com](https://vercel.com) → Import Project → select repo → Deploy.
 
 ## Notes
 
